@@ -1,9 +1,9 @@
 import React, { useRef } from "react";
 
-import "./Videoplayer.css";
+import "./VideoPlayer.css";
 import video from "../../assets/coll-video.mp4";
 
-const Videoplayer = ({ playState, setPlayState }) => {
+const VideoPlayer = ({ playState, setPlayState }) => {
   const player = useRef(null);
 
   const closePlayer = (e) => {
@@ -22,4 +22,4 @@ const Videoplayer = ({ playState, setPlayState }) => {
   );
 };
 
-export default Videoplayer;
+export default VideoPlayer;
